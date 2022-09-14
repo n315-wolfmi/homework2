@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+#app {
+  height: 100%;
+}
+
+nav {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 50px;
+}
+nav .site-title {
+  color: #000;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 600px;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+nav .links a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer {
+  height: 70px;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+}
+footer .footer-info {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+
+.home {
+  min-height: 100%;
+}
+.home .home-hero {
+  height: 600px;
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 0, 0, 0.4)), url("../images/home-hero.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.home .home-hero .hero-info {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+.home .home-hero .hero-info .hero-title {
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+.home .home-hero .hero-info .hero-desc {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 6px;
+}
+.home .home-hero .hero-info .hero-btn {
+  margin-top: 75px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #106cff;
+  padding: 20px;
+  border-radius: 50px;
+  width: 170px;
+  display: flex;
+  justify-content: space-around;
+}
+.home .home-hero .hero-info .hero-btn i {
+  margin-top: 8px;
+}
+.home .home-doublecard {
+  background-color: #f3f8ff;
+}
+.home .home-doublecard .doublecard-left {
+  width: 25%;
+}
+.home .home-doublecard .doublecard-right {
+  width: 75%;
+  background-image: url("../images/doublecard.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=styles.css.map */

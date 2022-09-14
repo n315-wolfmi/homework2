@@ -1,0 +1,62 @@
+.home {
+    min-height: 100%;
+
+    .home-hero {
+        height: 600px;
+        background-image: linear-gradient(to right, rgb(255,255,255), rgb(0,0,0,0.4)), url("../images/home-hero.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+        .hero-info {
+            position: absolute;
+            left: 10%;
+            top: 20%;
+
+            .hero-title {
+                font-size: 60px;
+                font-weight: 500;
+                letter-spacing: 3px;
+            }   
+
+            .hero-desc {
+                font-size: 20px;
+                font-weight: 500;
+                margin-left: 6px;
+            }
+
+            .hero-btn {
+                margin-top: 75px;
+                text-decoration: none;
+                color: #fff;
+                background-color: #106cff;
+                padding: 20px;
+                border-radius: 50px;
+                width: 170px;
+                display: flex;
+                justify-content: space-around;
+
+                i {
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+
+    .home-doublecard {
+        background-color: #f3f8ff;
+
+        .doublecard-left {
+            width: 25%;
+        }
+
+        .doublecard-right {
+            width: 75%;
+            background-image: url("../images/doublecard.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+}

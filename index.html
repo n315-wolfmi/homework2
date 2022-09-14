@@ -6,19 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment 2</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav>
-        <a id="home" href="#">HOME</a>
-        <a id="about" href="#">ABOUT</a>
-        <a id="products" href="#">PRODUCTS</a>
-        <a id="contact" href="#">CONTACT</a>
+        <div class="site-title">WEBSITE</div>
+        <div class="links">
+            <a id="home" href="#">HOME</a>
+            <a id="about" href="#">ABOUT</a>
+            <a id="products" href="#">PRODUCTS</a>
+            <a id="contact" href="#">CONTACT</a>
+        </div>
     </nav>
 
-    <div id="app"></div>
+    <div id="app">
+        <section class="home">
+            <div class="home-hero">
+                <div class="hero-info">
+                    <p class="hero-title">WELCOME</p>
+                    <p class="hero-title">TO OUR WEBSITE!</p>
+                    <p class="hero-desc">Facilis voluptatem aliquid dolore fugit provident blanditiis eveniet tenetur. </p>
+                    <a href="#" id="products" class="hero-btn">See Products <i class="fa-solid fa-chevron-right fa-xl"></i></a>
+                </div>
+            </div>
+            <div class="home-doublecard">
+                <div class="doublecard-left">
+                    <p class="title1">Excellent Service</p>
+                    <p class="title2">Lorem ipsum dolor sit amet</p>
+                    <p class="left-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, iste ullam nostrum inventore atque ipsum eveniet eligendi quia dolores sapiente adipisci labore! Quo error dolor quibusdam eius incidunt dicta harum.</p>
+                </div>
+                <div class="doublecard-right"></div>
+            </div>
+        </section>
+    </div>
 
     <footer>
-
+        <div class="footer-info">&copy; My Example Website. No rights Reserved.</div>
     </footer>
 
     <script src="lib/jquery-3.6.1.min.js"></script>
