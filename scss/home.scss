@@ -7,12 +7,11 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        position: relative;
-
+        
         .hero-info {
             position: absolute;
             left: 10%;
-            top: 20%;
+            top: 25%;
 
             .hero-title {
                 font-size: 60px;
@@ -46,13 +45,41 @@
 
     .home-doublecard {
         background-color: #f3f8ff;
+        display: flex;
+        height: 700px;
+        padding: 80px 0;
 
         .doublecard-left {
-            width: 25%;
+            width: 40%;
+            height: 100%;
+            padding: 0 100px;
+
+            .title1 {
+                color: #106cff;
+                font-size: 20px;
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+
+            .title2 {
+                font-size: 45px;
+                font-weight: 600;
+                line-height: 50px;
+            }
+
+            .left-desc {
+                line-height: 30px;
+                font-size: 20px;
+            }
+
+            .doublecard-btn {
+                @include site-btn(50px 0)
+            }
         }
 
         .doublecard-right {
-            width: 75%;
+            width: 60%;
+            height: 100%;
             background-image: url("../images/doublecard.jpg");
             background-position: center;
             background-size: cover;

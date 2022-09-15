@@ -13,10 +13,6 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
 }
 
-#app {
-  height: 100%;
-}
-
 nav {
   height: 75px;
   display: flex;
@@ -28,6 +24,7 @@ nav .site-title {
   color: #000;
   font-size: 40px;
   letter-spacing: 5px;
+  text-decoration: none;
 }
 nav .links {
   display: flex;
@@ -44,14 +41,11 @@ nav .links a {
 
 footer {
   height: 70px;
+  width: 100%;
   background-color: #000;
   color: #fff;
-  position: relative;
-}
-footer .footer-info {
-  position: absolute;
-  top: 35%;
-  left: 40%;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .home {
@@ -63,12 +57,11 @@ footer .footer-info {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
 }
 .home .home-hero .hero-info {
   position: absolute;
   left: 10%;
-  top: 20%;
+  top: 25%;
 }
 .home .home-hero .hero-info .hero-title {
   font-size: 60px;
@@ -96,12 +89,47 @@ footer .footer-info {
 }
 .home .home-doublecard {
   background-color: #f3f8ff;
+  display: flex;
+  height: 700px;
+  padding: 80px 0;
 }
 .home .home-doublecard .doublecard-left {
-  width: 25%;
+  width: 40%;
+  height: 100%;
+  padding: 0 100px;
+}
+.home .home-doublecard .doublecard-left .title1 {
+  color: #106cff;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.home .home-doublecard .doublecard-left .title2 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.home .home-doublecard .doublecard-left .left-desc {
+  line-height: 30px;
+  font-size: 20px;
+}
+.home .home-doublecard .doublecard-left .doublecard-btn {
+  margin: 50px 0;
+  text-decoration: none;
+  color: #fff;
+  background-color: #106cff;
+  padding: 20px;
+  border-radius: 50px;
+  width: 170px;
+  display: flex;
+  justify-content: space-around;
+}
+.home .home-doublecard .doublecard-left .doublecard-btn i {
+  margin-top: 8px;
 }
 .home .home-doublecard .doublecard-right {
-  width: 75%;
+  width: 60%;
+  height: 100%;
   background-image: url("../images/doublecard.jpg");
   background-position: center;
   background-size: cover;
