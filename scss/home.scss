@@ -26,15 +26,7 @@
             }
 
             .hero-btn {
-                margin-top: 75px;
-                text-decoration: none;
-                color: #fff;
-                background-color: #106cff;
-                padding: 20px;
-                border-radius: 50px;
-                width: 170px;
-                display: flex;
-                justify-content: space-around;
+                @include site-btn(50px 0);
 
                 i {
                     margin-top: 8px;

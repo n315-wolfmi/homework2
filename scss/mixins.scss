@@ -1,15 +1,15 @@
-@mixin site-btn($margin: 75px 0, ) {
+@mixin site-btn($margin: 75px 0, $bgColor: #106cff, $width: 170px, $color: #fff, $bradius: 50px, $padding: 20px) {
     margin: $margin;
     text-decoration: none;
-    color: #fff;
-    background-color: #106cff;
-    padding: 20px;
-    border-radius: 50px;
-    width: 170px;
+    color: $color;
+    background-color: $bgColor;
+    padding: $padding;
+    border-radius: $bradius;
+    width: $width;
     display: flex;
     justify-content: space-around;
 
     i {
-        margin-top: 8px;
+        margin-top: 0px;
     }
 }

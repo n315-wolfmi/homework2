@@ -74,7 +74,7 @@ footer {
   margin-left: 6px;
 }
 .home .home-hero .hero-info .hero-btn {
-  margin-top: 75px;
+  margin: 50px 0;
   text-decoration: none;
   color: #fff;
   background-color: #106cff;
@@ -83,6 +83,9 @@ footer {
   width: 170px;
   display: flex;
   justify-content: space-around;
+}
+.home .home-hero .hero-info .hero-btn i {
+  margin-top: 0px;
 }
 .home .home-hero .hero-info .hero-btn i {
   margin-top: 8px;
@@ -125,7 +128,7 @@ footer {
   justify-content: space-around;
 }
 .home .home-doublecard .doublecard-left .doublecard-btn i {
-  margin-top: 8px;
+  margin-top: 0px;
 }
 .home .home-doublecard .doublecard-right {
   width: 60%;
@@ -134,6 +137,99 @@ footer {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.about {
+  min-height: 100%;
+}
+.about .about-top {
+  height: 700px;
+  background-color: #0062ff;
+  color: #fff;
+  padding: 75px 200px;
+  margin-bottom: 250px;
+}
+.about .about-top .about-title {
+  font-size: 70px;
+}
+.about .about-top .about-subtitle {
+  margin-bottom: 2px;
+}
+.about .about-top .top-content {
+  margin-top: 50px;
+  display: flex;
+  height: 500px;
+}
+.about .about-top .top-content .about-hero {
+  width: 850px;
+  min-height: 500px;
+  background-color: #fff;
+  background-image: url("../images/about.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about .about-top .top-content .about-info {
+  background-color: #1a1a1a;
+  width: 500px;
+  min-height: 500px;
+  padding: 50px;
+  margin-left: -100px;
+  margin-top: 120px;
+}
+.about .about-top .top-content .about-info .info-title {
+  font-size: 35px;
+  font-weight: 600;
+}
+.about .about-top .top-content .about-info .info-desc {
+  font-size: 23px;
+  line-height: 40px;
+}
+.about .about-bottom {
+  padding: 50px 150px;
+}
+.about .about-bottom .bottom-title {
+  font-size: 40px;
+  font-weight: 700;
+  width: 400px;
+  margin-bottom: 60px;
+}
+.about .about-bottom .bottom-triplecards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.about .about-bottom .bottom-triplecards .triplecard {
+  width: 400px;
+  height: 400px;
+  background-color: #0062ff;
+  padding: 40px;
+  border-radius: 10px;
+}
+.about .about-bottom .bottom-triplecards .triplecard .triplecard-title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.about .about-bottom .bottom-triplecards .triplecard .triplecard-desc {
+  font-size: 20px;
+  line-height: 30px;
+}
+.about .about-bottom .bottom-triplecards .triplecard-btn {
+  margin: 20px;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 50%;
+  width: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 92%;
+  margin-top: 35px;
+}
+.about .about-bottom .bottom-triplecards .triplecard-btn i {
+  margin-top: 0px;
 }
 
 /*# sourceMappingURL=styles.css.map */
