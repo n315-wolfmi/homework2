@@ -74,7 +74,7 @@ footer {
   margin-left: 6px;
 }
 .home .home-hero .hero-info .hero-btn {
-  margin: 50px 0;
+  margin: 75px 0;
   text-decoration: none;
   color: #fff;
   background-color: #106cff;
@@ -83,6 +83,8 @@ footer {
   width: 170px;
   display: flex;
   justify-content: space-around;
+  font-size: 13px;
+  font-weight: 600;
 }
 .home .home-hero .hero-info .hero-btn i {
   margin-top: 0px;
@@ -117,7 +119,7 @@ footer {
   font-size: 20px;
 }
 .home .home-doublecard .doublecard-left .doublecard-btn {
-  margin: 50px 0;
+  margin: 75px 0;
   text-decoration: none;
   color: #fff;
   background-color: #106cff;
@@ -126,9 +128,14 @@ footer {
   width: 170px;
   display: flex;
   justify-content: space-around;
+  font-size: 13px;
+  font-weight: 600;
 }
 .home .home-doublecard .doublecard-left .doublecard-btn i {
   margin-top: 0px;
+}
+.home .home-doublecard .doublecard-left .doublecard-btn i {
+  margin-top: 8px;
 }
 .home .home-doublecard .doublecard-right {
   width: 60%;
@@ -225,6 +232,8 @@ footer {
   width: 50px;
   display: flex;
   justify-content: space-around;
+  font-size: 13px;
+  font-weight: 600;
   margin-left: 92%;
   margin-top: 35px;
 }
@@ -275,6 +284,8 @@ footer {
   width: 50px;
   display: flex;
   justify-content: space-around;
+  font-size: 13px;
+  font-weight: 600;
   margin-left: 90%;
   margin-top: 20px;
 }
@@ -322,6 +333,8 @@ footer {
   width: 200px;
   display: flex;
   justify-content: space-around;
+  font-size: 13px;
+  font-weight: 600;
   color: #000;
   margin-left: 55%;
   margin-top: 35px;
@@ -330,6 +343,121 @@ footer {
   margin-top: 0px;
 }
 .contact .contact-map .map-info .map-btn i {
+  margin-top: 8px;
+}
+
+.service {
+  min-height: 100%;
+}
+.service .service-top {
+  height: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.service .service-top .service-left {
+  width: 50%;
+  height: 100%;
+  background-color: #f0f4f7;
+}
+.service .service-top .service-left .service-info {
+  height: 450px;
+  position: relative;
+  top: 70px;
+  left: 150px;
+}
+.service .service-top .service-left .service-info .service-title {
+  font-size: 70px;
+  font-weight: 500;
+}
+.service .service-top .service-left .service-info .service-desc {
+  font-size: 20px;
+  line-height: 30px;
+  width: 550px;
+  margin-bottom: 60px;
+}
+.service .service-top .service-left .service-info .servicetop-btn {
+  margin: -10px 0;
+  text-decoration: none;
+  color: #fff;
+  background-color: #106cff;
+  padding: 20px;
+  border-radius: 50px;
+  width: 170px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: 600;
+}
+.service .service-top .service-left .service-info .servicetop-btn i {
+  margin-top: 0px;
+}
+.service .service-top .service-left .service-info .servicetop-btn i {
+  margin-top: 8px;
+}
+.service .service-top .service-right {
+  width: 50%;
+  height: 100%;
+  box-shadow: inset 50px 0 50px 0 #f0f4f7;
+  background-image: url("../images/about.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.service .service-bottom {
+  width: 1100px;
+  margin: 100px auto;
+}
+.service .service-bottom .dualcards-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+.service .service-bottom .dualcards-container .dualcard {
+  width: 500px;
+  height: 550px;
+}
+.service .service-bottom .dualcards-container .dualcard .dualcard-top {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 35%;
+  color: #fff;
+  height: 50%;
+  background-image: url("../images/doublecard.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0 0;
+}
+.service .service-bottom .dualcards-container .dualcard .dualcard-bottom {
+  height: 50%;
+  background-color: #f3f8ff;
+  border-radius: 0 0 15px 15px;
+}
+.service .service-bottom .dualcards-container .dualcard .dualcard-bottom .dualcard-desc {
+  padding: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.service .service-bottom .dualcards-container .dualcard .dualcard-bottom .dualcard-btn {
+  margin: -10px 0 0 300px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #106cff;
+  padding: 20px;
+  border-radius: 50px;
+  width: 170px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: 600;
+}
+.service .service-bottom .dualcards-container .dualcard .dualcard-bottom .dualcard-btn i {
+  margin-top: 0px;
+}
+.service .service-bottom .dualcards-container .dualcard .dualcard-bottom .dualcard-btn i {
   margin-top: 8px;
 }
 

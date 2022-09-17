@@ -52,7 +52,53 @@ var aboutContent = `<section class="about">
     </div>
 </div>
 </section>`
-var productsContent = ``
+var serviceContent = `<section class="service">
+<div class="service-top">
+    <div class="service-left">
+        <div class="service-info">
+            <p class="service-title">OUR SERVICE</p>
+            <p class="service-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti vitae repellat vero corporis voluptates dolore minus, odit nemo nam ducimus sint voluptatibus nulla provident, delectus atque porro libero inventore?</p>
+            <p class="service-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit deleniti vitae repellat vero corporis voluptates dolore minus, odit nemo nam ducimus sint voluptatibus nulla provident, delectus atque porro libero inventore?</p>
+            <a href="#" id="contact" class="servicetop-btn">LEARN MORE<i class="fa-solid fa-chevron-right fa-xl"></i></a>
+        </div>
+    </div>
+    <div class="service-right"></div>
+</div>
+<div class="service-bottom">
+    <div class="dualcards-container">
+        <div class="dualcard">
+            <div class="dualcard-top">LOREM IPSUM</div>
+            <div class="dualcard-bottom">
+                <p class="dualcard-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa deserunt, ab quaerat, ad doloremque at illum molestiae voluptate vel voluptatum vitae explicabo iure iusto, accusamus porro beatae. Accusantium, reprehenderit?</p>
+                <a href="#" class="dualcard-btn">READ MORE<i class="fa-solid fa-chevron-right fa-xl"></i></a>
+            </div>
+        </div>
+        <div class="dualcard">
+            <div class="dualcard-top">LOREM IPSUM</div>
+            <div class="dualcard-bottom">
+                <p class="dualcard-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa deserunt, ab quaerat, ad doloremque at illum molestiae voluptate vel voluptatum vitae explicabo iure iusto, accusamus porro beatae. Accusantium, reprehenderit?</p>
+                <a href="#" class="dualcard-btn">READ MORE<i class="fa-solid fa-chevron-right fa-xl"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="dualcards-container">
+        <div class="dualcard">
+            <div class="dualcard-top">LOREM IPSUM</div>
+            <div class="dualcard-bottom">
+                <p class="dualcard-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa deserunt, ab quaerat, ad doloremque at illum molestiae voluptate vel voluptatum vitae explicabo iure iusto, accusamus porro beatae. Accusantium, reprehenderit?</p>
+                <a href="#" class="dualcard-btn">READ MORE<i class="fa-solid fa-chevron-right fa-xl"></i></a>
+            </div>
+        </div>
+        <div class="dualcard">
+            <div class="dualcard-top">LOREM IPSUM</div>
+            <div class="dualcard-bottom">
+                <p class="dualcard-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa deserunt, ab quaerat, ad doloremque at illum molestiae voluptate vel voluptatum vitae explicabo iure iusto, accusamus porro beatae. Accusantium, reprehenderit?</p>
+                <a href="#" class="dualcard-btn">READ MORE<i class="fa-solid fa-chevron-right fa-xl"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>`
 var contactContent = `<section class="contact">
 <div class="contact-titlecard">CONTACT US</div>
 <div class="contact-cards">

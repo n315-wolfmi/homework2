@@ -11,6 +11,6 @@ function initListeners() {
 }
  
 $(document).ready(function () {
-    // MODEL.setPageContent("home") //automatically goes to the home page on load
+    MODEL.setPageContent("home") //automatically goes to the home page on load
     initListeners();
 });

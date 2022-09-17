@@ -26,7 +26,7 @@
             }
 
             .hero-btn {
-                @include site-btn(50px 0);
+                @include site-btn();
 
                 i {
                     margin-top: 8px;
@@ -65,7 +65,11 @@
             }
 
             .doublecard-btn {
-                @include site-btn(50px 0)
+                @include site-btn();
+
+                i {
+                    margin-top: 8px;
+                }
             }
         }
 

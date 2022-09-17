@@ -1,0 +1,104 @@
+.service {
+    min-height: 100%;
+
+    .service-top {
+        height: 620px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .service-left {
+            width: 50%;
+            height: 100%;
+            background-color: #f0f4f7;
+
+            .service-info {
+                height: 450px;
+                position: relative;
+                top: 70px;
+                left: 150px;
+
+                .service-title {
+                    font-size: 70px;
+                    font-weight: 500;
+                }
+
+                .service-desc {
+                    font-size: 20px;
+                    line-height: 30px;
+                    width: 550px;
+                    margin-bottom: 60px;
+                }
+
+                .servicetop-btn {
+                    @include site-btn($margin: -10px 0);
+                    i {
+                        margin-top: 8px;
+                    }
+                }
+            }
+            
+        }
+
+        .service-right {
+            width: 50%;
+            height: 100%;
+            box-shadow: inset 50px 0 50px 0 #f0f4f7;
+            background-image: url("../images/about.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .service-bottom {
+        width: 1100px;
+        margin: 100px auto;
+
+        .dualcards-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-bottom: 25px;
+
+            .dualcard {
+                width: 500px;
+                height: 550px;
+
+                .dualcard-top {
+                    font-size: 30px;
+                    font-weight: 500;
+                    text-align: center;
+                    padding-top: 35%;
+                    color: #fff;
+                    height: 50%;
+                    background-image: url("../images/doublecard.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border-radius: 15px 15px 0 0;
+                }
+
+                .dualcard-bottom {
+                    height: 50%;
+                    background-color: #f3f8ff;
+                    border-radius: 0 0 15px 15px;
+                    
+                    .dualcard-desc {
+                        padding: 20px;
+                        font-size: 20px;
+                        line-height: 30px;
+                    }
+
+                    .dualcard-btn {
+                        @include site-btn($margin: -10px 0 0 300px);
+                        i {
+                            margin-top: 8px;
+                        }
+                    }  
+                }
+            }
+            
+        }
+    }
+}
