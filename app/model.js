@@ -53,7 +53,55 @@ var aboutContent = `<section class="about">
 </div>
 </section>`
 var productsContent = ``
-var contactContent = ``
+var contactContent = `<section class="contact">
+<div class="contact-titlecard">CONTACT US</div>
+<div class="contact-cards">
+    <div class="contact-card">
+        <p class="contactcard-title">CUSTOMER SERVICE</p>
+        <p class="contactcard-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quis beatae nam molestiae, quidem numquam sapiente ipsum suscipit cumque reiciendis recusandae rerum totam!</p>
+        <a href="#" class="contactcard-btn"><i class="fa-solid fa-chevron-right fa-xl"></i></a>
+    </div>
+    <div class="contact-card">
+        <p class="contactcard-title">RETAIL SOLUTIONS</p>
+        <p class="contactcard-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quis beatae nam molestiae, quidem numquam sapiente ipsum suscipit cumque reiciendis recusandae rerum totam!</p>
+        <a href="#" class="contactcard-btn"><i class="fa-solid fa-chevron-right fa-xl"></i></a>
+    </div>
+    <div class="contact-card">
+        <p class="contactcard-title">BRAND PARTNERSHIPS</p>
+        <p class="contactcard-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quis beatae nam molestiae, quidem numquam sapiente ipsum suscipit cumque reiciendis recusandae rerum totam!</p>
+        <a href="#" class="contactcard-btn"><i class="fa-solid fa-chevron-right fa-xl"></i></a>
+    </div>   
+</div>
+<div class="contact-cards">
+    <div class="contact-card">
+        <p class="contactcard-title">MOBILE SUPPORT</p>
+        <p class="contactcard-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quis beatae nam molestiae, quidem numquam sapiente ipsum suscipit cumque reiciendis recusandae rerum totam!</p>
+        <a href="#" class="contactcard-btn"><i class="fa-solid fa-chevron-right fa-xl"></i></a>
+    </div>
+    <div class="contact-card">
+        <p class="contactcard-title">VENDOR INQUIRIES</p>
+        <p class="contactcard-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quis beatae nam molestiae, quidem numquam sapiente ipsum suscipit cumque reiciendis recusandae rerum totam!</p>
+        <a href="#" class="contactcard-btn"><i class="fa-solid fa-chevron-right fa-xl"></i></a>
+    </div>
+    <div class="contact-card">
+        <p class="contactcard-title">MEDIA INQUIRIES</p>
+        <p class="contactcard-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quis beatae nam molestiae, quidem numquam sapiente ipsum suscipit cumque reiciendis recusandae rerum totam!</p>
+        <a href="#" class="contactcard-btn"><i class="fa-solid fa-chevron-right fa-xl"></i></a>
+    </div>    
+</div>
+<div class="contact-map">
+    <div class="map-info">
+        <p class="map-title">HOME OFFICE</p>
+        <p class="map-title2">Headquarters</p>
+        <p class="map-desc">
+            123 Location Place Rd.
+            <br>
+            City, State 43212
+        </p>
+        <a href="#" class="map-btn">GOOGLE MAPS<i class="fa-solid fa-chevron-right fa-xl"></i></a>
+    </div>
+</div>
+</section>`
 
 //receive current page id from controller
 function setPageContent(pageID) {

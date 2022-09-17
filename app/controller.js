@@ -2,7 +2,7 @@ import * as MODEL from "./model.js";
 
 function initListeners() {
     //nav link is clicked, event is triggered
-    $("nav .links a").click( (e) => {
+    $("a").click( (e) => {
         e.preventDefault();
         let btnID = e.currentTarget.id; //variable for id of link
 
@@ -11,6 +11,6 @@ function initListeners() {
 }
  
 $(document).ready(function () {
-    MODEL.setPageContent("home") //automatically goes to the home page on load
+    // MODEL.setPageContent("home") //automatically goes to the home page on load
     initListeners();
 });
